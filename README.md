@@ -14,11 +14,6 @@ For the validation of the characters I have "ANormCaract" which allows the progr
 
 In the functions, the main inputs are : the message (Caesar or Vigenere), the key (Vigenere) and the offset (Caesar). The output of the functions is the encrypted or decrypted message.
 
-A contrario, j'ai noté deux erreurs dans ce programme :
-
-- La fonction "convertiraccent" n'est pas fonctionnelle,
-- le makefile n'est pas fonctionnel aussi.
-
 On the other hand, I noticed two errors in this program :
 
 - The "convertiraccent" function doesn't work,
