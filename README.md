@@ -1,24 +1,37 @@
-# TextEncyption 
+# Text Encryption
 
-TextEncryption est un programme en C qui traduit un message saisi par l'utilisateur dans 2 façons différentes de chiffrer (César et Vigenere), l'utilisateur peut retrouver un historique des différents messages traduits dans un fichier .txt (HistoriqueChiffrement.txt).
+## Preamble
 
-Nous retrouvons plusieurs plusieurs variable comme des tableaux comprenant l'Alphabet avec les lettres majuscule (AlphabetMajus) et les lettres en minuscule (AlphabetMinus).
+ TextEncryption was developed during my first year at University, you'll excuse me for the quality of the code which can be imperfect, but it works correctly :D !
 
-Pour la validiter des caractères j'ai "ANormCaract" qui permet au programme de ne pas prendre de caractère qu'il ne pourra pas retranscrire
-dans le chiffrement voulu. Deux autres tableaux dont 1 comprenant les lettres accentuées afin de les remplacer par le second tableau les lettres non accentuées.
-Il y aussi le tableau de caractères "message" ainsi que "clée". Et d'autres variables qui permettent la bon fonctiennement du programme mais qui sont peu interressantes.
-Dans les fonctions, les entrés principales sont : le message (Vigenere et Cesar), la clée (Vigenere) et le décalage (Cesar).
-La sortie des fonctions et le texte traduit donc le message.
+## Program description
 
-A contrario il y a deux erreurs dans ce programme, le premier est le fait que lorsque j'ai commencé à developper j'ai laissé tomber la fonction "ConvertirAccents". 
-Arrivant à la fin du programme j'ai réalisé qu'il fallait que je rajoute wchar_t sur tous mes tableaux ce qui a impacté beaucoup de chose, j'ai laissé des traces de ma tentative mais par manque de temps ce fût impossible (tentative : Wchar.c).
+TextEncrytion is a C program that translates a message entered by the user in two different ways of encryption (in my case : Caesar and Vigenere), the user can find a history of the different translated messages in a .txt file (HistoryEncryption.txt).
 
-La seconde est le makefile n'est pas fonctionnel du tout, ne l'ayant jamais utiliser (j'ai laissé mon makefile quand même mais non fonctionnel).
-J'ai eu aussi un problème avec le tableau de caractère "message", des problèmes d'entrées dans les fonctions ce qu'il fait qu'il se retrouve en global.
+We find several variables such as arrays including the alphabet with upper case letters (CapitalLetters) and lower case letters (LowerCaseLetters).
 
-Le programme est entièrement fonctionnel et réalise tous les chiffrements voulus sans erreurs comprenant les majuscules et minuscules.
-Le programme est assez simple, sans prise de tête facile d'utilisation et ergonomique.
+For the validation of the characters I have "ANormCaract" which allows the program not to take any characters that it will not be able to retranscribe in the desired encryption.
 
-Merci et bonne expérience de TextEncryption.
+In the functions, the main inputs are : the message (Caesar or Vigenere), the key (Vigenere) and the offset (Caesar). The output of the functions is the encrypted or decrypted message.
 
-**Written by :** Jean Guiraud
+A contrario, j'ai noté deux erreurs dans ce programme :
+
+- La fonction "convertiraccent" n'est pas fonctionnelle,
+- le makefile n'est pas fonctionnel aussi.
+
+On the other hand, I noticed two errors in this program :
+
+- The "convertiraccent" function doesn't work,
+- The makefile doesn't work too.
+
+Le programme est entièrement fonctionnel et réalise tous les chiffrements voulus sans erreurs comprenant les majuscules et minuscules. Le programme est facile d'utilisation et ergonomique.
+
+The program is fully functionnal and performs all the encryptions desired without bugs including upper case letters and lower case letters. The program is easy to use and ergonomic.
+
+I wish you a good experience with TextEncryption.
+
+---
+
+**Year of project completion :** 2019
+\
+**Written by :** Jean GUIRAUD
