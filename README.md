@@ -19,8 +19,6 @@ On the other hand, I noticed two errors in this program :
 - The "convertiraccent" function doesn't work,
 - The makefile doesn't work too.
 
-Le programme est entièrement fonctionnel et réalise tous les chiffrements voulus sans erreurs comprenant les majuscules et minuscules. Le programme est facile d'utilisation et ergonomique.
-
 The program is fully functionnal and performs all the encryptions desired without bugs including upper case letters and lower case letters. The program is easy to use and ergonomic.
 
 I wish you a good experience with TextEncryption.
