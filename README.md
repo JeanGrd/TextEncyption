@@ -27,4 +27,4 @@ I wish you a good experience with TextEncryption.
 
 **Year of project completion :** 2019
 \
-**Written by :** Jean GUIRAUD
+**Written by :** Jean Guiraud
